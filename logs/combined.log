@@ -32,3 +32,9 @@
 2025-01-06 11:59:03 [WARN]: Intento de duplicado en campos: 
 2025-01-06 11:59:11 [WARN]: Intento de duplicado en campos: 
 2025-01-06 11:59:24 [INFO]: Nuevo candidato creado: 6 - Astrid 
+2025-01-06 19:55:38 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 19:55:38 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 19:55:38 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 20:05:11 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 20:05:11 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 20:05:11 [INFO]: Servidor escuchando en http://localhost:3000

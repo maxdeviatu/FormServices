@@ -1,7 +1,6 @@
 // controllers/candidateController.js
 const Candidate = require('../models/Candidate');
 const logger = require('../config/logger');
-const path = require('path');
 
 const createCandidate = async (req, res) => {
   try {
@@ -68,6 +67,17 @@ const createCandidate = async (req, res) => {
       });
 
       return res.status(409).json({ message: messages.join(' ') }); // 409 Conflict
+    }
+
+    // Manejar errores de Multer (como exceder el tamaño del archivo)
+    if (error.message.includes('File too large')) {
+      logger.warn('Archivo excede el tamaño permitido.');
+      return res.status(400).json({ message: 'El archivo excede el tamaño máximo permitido de 5MB.' });
+    }
+
+    if (error.message.includes('Tipo de archivo no soportado')) {
+      logger.warn('Tipo de archivo no soportado.');
+      return res.status(400).json({ message: error.message });
     }
 
     logger.error('Error al crear candidato:', error);
