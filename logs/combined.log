@@ -1,0 +1,34 @@
+2025-01-06 10:45:37 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 10:45:37 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 10:45:37 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 10:50:37 [INFO]: Nuevo candidato creado: 1 - Armando Avendaño
+2025-01-06 10:54:30 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 10:54:30 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 10:54:30 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 10:54:56 [INFO]: Nuevo candidato creado: 2 - Armando Avendaño
+2025-01-06 10:58:27 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 10:58:27 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 10:58:27 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 10:58:50 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 10:58:50 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 10:58:50 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 10:59:34 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 10:59:34 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 10:59:34 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 11:20:40 [WARN]: CORS bloqueado para origen: https://restaurantsite-b287e6.webflow.io
+2025-01-06 11:20:40 [ERROR]: El CORS policy no permite este origen.
+2025-01-06 11:45:14 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 11:45:14 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 11:45:14 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 11:45:29 [WARN]: CORS bloqueado para origen: https://pollopico.socketidea.com
+2025-01-06 11:45:29 [ERROR]: El CORS policy no permite este origen.
+2025-01-06 11:47:46 [INFO]: Conexión a la base de datos establecida con éxito.
+2025-01-06 11:47:46 [INFO]: Conexión a la base de datos exitosa.
+2025-01-06 11:47:46 [INFO]: Servidor escuchando en http://localhost:3000
+2025-01-06 11:47:49 [INFO]: Nuevo candidato creado: 1 - Armando Avendaño
+2025-01-06 11:53:09 [INFO]: Nuevo candidato creado: 2 - Armando Avendaño
+2025-01-06 11:54:15 [INFO]: Nuevo candidato creado: 3 - CAROLINA HERRERA
+2025-01-06 11:58:34 [ERROR]: Tipo de archivo no soportado. Solo se permiten PDF y DOC/DOCX.
+2025-01-06 11:59:03 [WARN]: Intento de duplicado en campos: 
+2025-01-06 11:59:11 [WARN]: Intento de duplicado en campos: 
+2025-01-06 11:59:24 [INFO]: Nuevo candidato creado: 6 - Astrid 
