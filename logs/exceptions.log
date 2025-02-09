@@ -1,0 +1,78 @@
+2025-02-09 13:54:56 [ERROR]: uncaughtException: Cannot find module './routes/orderRoutes'
+Require stack:
+- C:\Users\mardo\maxDev\FormServices\server.js
+Error: Cannot find module './routes/orderRoutes'
+Require stack:
+- C:\Users\mardo\maxDev\FormServices\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\mardo\maxDev\FormServices\server.js:10:21)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-02-09 14:02:23 [ERROR]: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\mardo\maxDev\FormServices\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\mardo\maxDev\FormServices\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\mardo\maxDev\FormServices\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (C:\Users\mardo\maxDev\FormServices\server.js:39:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+2025-02-09 14:02:26 [ERROR]: uncaughtException: Cannot find module '../controllers/orderController'
+Require stack:
+- C:\Users\mardo\maxDev\FormServices\routes\orderRoutes.js
+- C:\Users\mardo\maxDev\FormServices\server.js
+Error: Cannot find module '../controllers/orderController'
+Require stack:
+- C:\Users\mardo\maxDev\FormServices\routes\orderRoutes.js
+- C:\Users\mardo\maxDev\FormServices\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\mardo\maxDev\FormServices\routes\orderRoutes.js:11:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+2025-02-09 14:02:38 [ERROR]: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\Users\mardo\maxDev\FormServices\node_modules\express\lib\router\route.js:216:15)
+    at proto.<computed> [as post] (C:\Users\mardo\maxDev\FormServices\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\mardo\maxDev\FormServices\routes\orderRoutes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+2025-02-09 14:02:41 [ERROR]: uncaughtException: Cannot find module '../models/Order'
+Require stack:
+- C:\Users\mardo\maxDev\FormServices\controllers\orderController.js
+- C:\Users\mardo\maxDev\FormServices\routes\orderRoutes.js
+- C:\Users\mardo\maxDev\FormServices\server.js
+Error: Cannot find module '../models/Order'
+Require stack:
+- C:\Users\mardo\maxDev\FormServices\controllers\orderController.js
+- C:\Users\mardo\maxDev\FormServices\routes\orderRoutes.js
+- C:\Users\mardo\maxDev\FormServices\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\mardo\maxDev\FormServices\controllers\orderController.js:2:15)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
